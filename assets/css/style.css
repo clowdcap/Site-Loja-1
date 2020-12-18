@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Boot CSS */
+.center{
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 0 10px;
+}
+
+.w33 {
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.w50 {
+    padding: 0 2%;
+    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/* MENU */
+
+header {
+    width: 100%;
+    background-color: #36599E;
+    display: inline-block;
+    border-bottom: 3px solid #444444;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Logo */
+
+.logo {
+ width: 50%;
+ text-align: left;
+ text-transform: uppercase;
+ padding: 20px 0;
+}
+
+.logo h1{
+    font-weight: 300;
+    font-size: 35px;
+    color: #EBC267;    
+}
+
+.logo h1 span{
+    font-weight: 500;
+    color: white;
+}
+
+
+/* menu-bar */
+.menu-bar {
+    padding: 29px 0;
+    width: 50%;
+    text-align: end;
+    display:block;
+}
+
+/* Menu Desktop */
+.menu-bar-desktop ul{
+    list-style-type: none;
+}
+
+.menu-bar-desktop ul li{
+    display: inline-block;
+}
+
+.menu-bar-desktop a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 50px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+.menu-bar-desktop a.page-select{
+    color: #f8be42;
+    font-weight: 700;
+}
+
+
+/* SECTION 1 - TOPO */
+
+section.topo {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url('../../img/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-bottom: 3px solid #444444;
+}
+
+.box-topo {
+    max-width: 500px;
+    width: 100%;
+    padding: 0px 2%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border-radius: 25px;
+
+}
+
+.box-topo h2, h3 {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.box-topo input[type=email] {
+    width: 350px;
+    height: 45px;
+    border: 0;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #d7e5ff;
+}
+
+.box-topo input[type=submit]{
+    width: 160px;
+    height: 35px;
+    border: 0;
+    border-radius: 20px;
+    margin: 20px 95px;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #EBC267;
+    box-shadow: 1px 1px 3px rgb(68, 68, 68);
+    color: #313131;
+}
+
+.box-topo h2 {
+    font-size: 40px;
+    color: #f8be42
+}
+
+.box-topo h3 {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    
+}
+
+
+/* SECTION 2 - QUALIDADE */
+
+section.qualidade {
+    width: 100%;
+    height: 450px;
+    background-color: #e6decc;
+    padding: 4% 0;
+    border-bottom: 3px solid #444444;
+}
+
+section.qualidade h2{
+    padding: 18px 0;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    color: #f8be42;
+}
+
+section.qualidade p{
+    text-align: justify;
+    padding-bottom: 20px;
+    font-weight: 300;
+    color: #444;
+}
+
+section.qualidade img{
+      width: 300px;
+      margin-top: 130px;
+      margin-left: 150px;
+}
+
+
+/* SECTION 2 - ENTREGA */
+
+section.entrega {
+    width: 100%;
+    height: 550px;
+    background: transparent;
+    padding: 3% 0;
+    background-image: url('../../img/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-bottom: 3px solid #444444;
+}
+
+section.entrega img{
+    width: 300px;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+
+section.entrega h2{
+    padding: 35px 0;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    color: #f8be42
+}
+
+section.entrega h3{
+    color: #e2e2e2;
+}
+
+section.entrega p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+section.entrega p a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    
+}
+
+section form {
+    text-align: center;
+}
+
+section form input[type=number]{
+    width: 250;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #999999;
+}
+
+section form input[type=submit]{
+    width: 160px;
+    height: 35px;
+    border: 0;
+    border-radius: 20px;
+    margin: 20px 95px;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #EBC267;
+    box-shadow: 1px 1px 3px rgb(68, 68, 68);
+    color: #313131;
+}
+
+
+
+/* SECTION 3 - DEPOIMENTOS */
+
+section.depoimentos {
+    padding: 50px 0;
+    background-color: #e6decc;
+    border-bottom: 3px solid #444444;
+}
+
+section.depoimentos h2.title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #f8be42;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.box-depoimentos{
+    margin: 40px 0;
+    padding: 0 30px;
+    text-align: center;
+
+}
+.box-depoimentos h3{
+    color: #585fad;
+    font-size: 80px;
+}
+
+
+.box-depoimentos h4{
+    color: rgb(75, 75, 75);
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.box-depoimentos p{
+    color: #222222;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.box-depoimentos img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* RODAPÉ */
+
+footer {
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: #444;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
+/* PAGES */
+/* ############## */
+/* SOBRE */
+
+section.sobre {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url('../../img/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-bottom: 3px solid #444444;
+}
+
+
+section.produtos {
+    width: 100%;
+    height: 680px;
+    background-color: #e6decc;
+    padding: 4% 0;
+    border-bottom: 3px solid #444444;
+    
+}
+
+section.produtos h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #f8be42;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+section.sobre h2.title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #f8be42;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+section.sobre h2{
+    margin-top: 5px;
+    padding: 15px 0;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    color: #f8be42;
+}
+
+
+section.sobre p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 300;
+    color: white;
+}
+
+section.fornecedores {
+    width: 100%;
+    height: 450px;
+    background-color: #e6decc;
+    padding: 4% 0;
+    border-bottom: 3px solid #444444;
+    
+}
+
+
+
+
+/*
+
+
+CORES
+Azul escuro pro claro
+A = #36599E
+C = #6793EB
+B = #8AB1FF
+
+Amarelo Dourado
+D = #9E7926
+
+Beje
+E = #EBC267
+
+
+*/
+
